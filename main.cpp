@@ -10,6 +10,7 @@ int main(int argc, char *argv[])
 
     testing *oneTesting = new testing();
     oneTesting->testingConcurrent();
+    oneTesting->testingSanitizer();
 
     return a.exec();
 }
