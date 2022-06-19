@@ -14,4 +14,5 @@ void testing::testingConcurrent()
 {
     testing_concurrent *oneConcurrent = new testing_concurrent();
     oneConcurrent->testingOne();
+    oneConcurrent->testingTwo();
 }

@@ -12,6 +12,7 @@ public:
     ~testing_concurrent();
 
     void testingOne();
+    void testingTwo();
 };
 
 #endif // TESTING_CONCURRENT_H
